@@ -100,6 +100,46 @@ function Home() {
             </div>
           </div>
         </SwiperSlide>
+        <SwiperSlide>
+          <section className="container mx-auto text-white">
+            <div className="bg-slate-800/60 h-[40rem] rounded-3xl">
+              <div className="pt-[5rem] px-[4rem] flex justify-between">
+                <div>
+                  <h2 className="font-raleWayFont italic font-semibold text-8xl  ">
+                    lets talk
+                  </h2>
+                  <div className="relative font-RaleWayFont mt-[3rem] ">
+                    <h3 className=" text-xl capitalize tracking-wider mb-[2rem] before:content-[''] before:absolute before:w-[5rem] before:h-[2px] before:bg-white before:left-0 before:top-[2rem]  ">
+                      use full links
+                    </h3>
+                    <ul className="text-lg tracking-wider">
+                      <li className="my-2">
+                        <a href={"/works"}>works</a>
+                      </li>
+                      <li>
+                        <a href={"/blogs"}>blogs</a>
+                      </li>
+                    </ul>
+                  </div>
+                </div>
+                <div className="font-RaleWayFont mt-[7rem] ">
+                  <div></div>
+                  <h2 className="capitalize text-2xl font-semibold opacity-75">
+                    get in touch with
+                  </h2>
+                  <div className="flex items-center gap-x-6 capitalize mt-1 ">
+                    <h3 className="ml-[3rem] text-xl font-RaleWayFont font-semibold tracking-wider ">
+                      Masrafi Mondol
+                    </h3>
+                    <button className="py-1 px-4 border border-1-white rounded-md capitalize tracking-wider ">
+                      developer
+                    </button>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </section>
+        </SwiperSlide>
       </Swiper>
     </>
   );
